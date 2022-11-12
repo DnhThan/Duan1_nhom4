@@ -52,7 +52,7 @@ nav ul li a:hover,
 }
 
 .header_book input,
-.main-chitiet button {
+.main-chitiet button ,.frm-gt button{
     margin: 30px 10px;
     padding: 13px 25px;
     background-color: #487254;
@@ -235,7 +235,7 @@ nav ul li a:hover,
     font-size: 40px;
 }
 
-.box-dn input, .info-dk input ,.info-mk input{
+.box-dn input, .info-dk input ,.info-mk input,.frm-gt input{
     height: 70px;
     width: 500px;
     font-size: 20px;
@@ -339,4 +339,55 @@ margin-left: 900px;
 
 .main-chitiet button {
     margin-left: 640px;
+}
+/* CSSS TRANG GIỚI THIỆU*/
+.main-gioithieu{
+   display: grid;
+   grid-template-columns: 3fr 1fr;
+    grid-gap: 30px;
+}
+.main-gioithieu p ,.boxgt-ct-item {
+    font-size: 20px;
+    line-height: 200%;
+}
+.main-gioithieu img{
+    width: 100%;
+}
+.main-gioithieu h1{
+    text-align: center;
+    margin: 30px 0;
+    font-size: 40px;
+    font-weight: 900;
+}
+.boxgt-ct{
+    margin: 30px 0;
+    display: flex;
+    grid-gap: 40px;
+}
+.boxgt-ct img{
+    width: 700px;
+    border-radius: 5px;
+}
+.icon-box-gt i{
+    width: 30px;
+}
+.icon-box-gt{
+    text-align: center;
+    margin: 30px 0;
+}
+.table-gt{
+    width: 500px;
+    padding: 5px;
+    border: 1px solid #000;
+}
+table tr th{
+   border-spacing: 0;
+}
+.box-dm {
+    line-height: 300%;
+}
+.box-dm h2{
+    margin-top: 160px;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
