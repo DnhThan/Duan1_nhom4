@@ -52,7 +52,8 @@ nav ul li a:hover,
 }
 
 .header_book input,
-.main-chitiet button ,.frm-gt button{
+.main-chitiet button,
+.frm-gt button {
     margin: 30px 10px;
     padding: 13px 25px;
     background-color: #487254;
@@ -214,13 +215,15 @@ nav ul li a:hover,
 }
 
 /*Đăng nhập-đăng kí*/
-.dn-box ,.dk-box {
+.dn-box,
+.dk-box {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 30px 0;
 }
 
-.info-dn ,.info-dk{
+.info-dn,
+.info-dk {
     padding: 0 100px;
 }
 
@@ -229,13 +232,18 @@ nav ul li a:hover,
     height: 700px;
 }
 
-.info-dn h2 ,.info-dk h2 ,.info-mk h2{
+.info-dn h2,
+.info-dk h2,
+.info-mk h2 {
     text-align: center;
     margin: 50px 0;
     font-size: 40px;
 }
 
-.box-dn input, .info-dk input ,.info-mk input,.frm-gt input{
+.box-dn input,
+.info-dk input,
+.info-mk input,
+.frm-gt input {
     height: 70px;
     width: 500px;
     font-size: 20px;
@@ -244,7 +252,8 @@ nav ul li a:hover,
     border-radius: 5px;
 }
 
-.info-dn button ,.info-mk button{
+.info-dn button,
+.info-mk button {
     height: 50px;
     width: 500px;
     font-size: 20px;
@@ -256,7 +265,9 @@ nav ul li a:hover,
     margin: 15px 0;
 }
 
-.box-dn p ,.box-dk p,.box-mk p{
+.box-dn p,
+.box-dk p,
+.box-mk p {
     margin: 20px 0;
     font-size: 20px;
     padding: 0 10px;
@@ -279,8 +290,8 @@ nav ul li a:hover,
 }
 
 .dki a:hover,
-.box-dn1 a:hover ,
-.info-mk-a a:hover{
+.box-dn1 a:hover,
+.info-mk-a a:hover {
     box-shadow: 0 2px blue;
 }
 
@@ -288,27 +299,32 @@ nav ul li a:hover,
     margin: 20px 0;
     text-align: center;
 }
-.info-dk button{
+
+.info-dk button {
     width: 150px;
-    height:50px;
+    height: 50px;
     border: 1px solid #000;
     background-color: #000;
     color: #ffff;
     border-radius: 5px;
     margin: 20px 170px;
 }
+
 .frm-mk {
     margin-left: 480px;
 }
-.info-mk-a a{
-text-decoration: none;
-color: blue;
-margin-left: 900px;
+
+.info-mk-a a {
+    text-decoration: none;
+    color: blue;
+    margin-left: 900px;
 
 }
-.mk-box{
+
+.mk-box {
     margin: 30px 0;
 }
+
 /* main - chi tiết phòng*/
 .main-chitiet h1 {
     margin: 40px;
@@ -340,54 +356,135 @@ margin-left: 900px;
 .main-chitiet button {
     margin-left: 640px;
 }
+
 /* CSSS TRANG GIỚI THIỆU*/
-.main-gioithieu{
-   display: grid;
-   grid-template-columns: 3fr 1fr;
+.main-gioithieu {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
     grid-gap: 30px;
 }
-.main-gioithieu p ,.boxgt-ct-item {
+
+.main-gioithieu p,
+.boxgt-ct-item,
+.box-gt p {
     font-size: 20px;
     line-height: 200%;
 }
-.main-gioithieu img{
+
+.main-gioithieu img {
     width: 100%;
 }
-.main-gioithieu h1{
+
+.main-gioithieu h1 {
     text-align: center;
     margin: 30px 0;
     font-size: 40px;
     font-weight: 900;
 }
-.boxgt-ct{
+
+.boxgt-ct {
     margin: 30px 0;
     display: flex;
     grid-gap: 40px;
 }
-.boxgt-ct img{
+
+.boxgt-ct img {
     width: 700px;
     border-radius: 5px;
 }
-.icon-box-gt i{
+
+.icon-box-gt i {
     width: 30px;
 }
-.icon-box-gt{
+
+.icon-box-gt {
     text-align: center;
     margin: 30px 0;
 }
-.table-gt{
+
+.table-gt {
     width: 500px;
     padding: 5px;
     border: 1px solid #000;
 }
-table tr th{
-   border-spacing: 0;
+
+table tr th {
+    border-spacing: 0;
 }
+
 .box-dm {
     line-height: 300%;
 }
-.box-dm h2{
+
+.box-dm h2 {
     margin-top: 160px;
     font-size: 30px;
     margin-bottom: 20px;
+}
+
+.main-gioithieu span {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.box-dm a {
+    font-size: 30px;
+    color: #000;
+    text-decoration: dashed;
+}
+
+.box-dm a:hover {
+    color: #8E1E20;
+}
+
+/* css lieen he*/
+.main-lienhe,
+.frm-boxright {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    padding: 10px;
+    margin: 30px 0;
+}
+
+.lh-box-left {
+    font-size: 20px;
+}
+.lh-box-left h2{
+    margin: 40px 0;
+    margin-left: 20px;
+}
+.lh-box-left p {
+    margin: 16px 0;
+}
+
+.frm-boxright input,
+.frm-boxright select {
+    height: 40px;
+    width: 300px;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(194, 186, 186);
+}
+
+.lh-box-right textarea {
+    border: 1px solid rgb(194, 186, 186);
+    width: 300px;
+    margin-left: 10px;
+    height: 300px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.lh-box-right button {
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 70px;
+    height: 40px;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 5px;
+    color: white;
 }
