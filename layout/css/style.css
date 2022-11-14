@@ -6,7 +6,7 @@
 
 .container {
     padding: 10px;
-    margin: auto;
+    margin:  auto;
     width: 1440px;
     background-color: #F6F3E9;
     font-family: 'Roboto', sans-serif;
@@ -487,4 +487,65 @@ table tr th {
     border: 1px solid orange;
     border-radius: 5px;
     color: white;
+}
+/* css trang chủ  */
+.banner-header{
+    display: grid;
+    grid-template-columns: 60% 40%;
+   
+}
+.tilte{
+    padding-top: 140px;
+}
+.tilte h1{
+    font-size: 90px;
+    padding-left: 100px;
+    width: 65%;
+}
+.tilte p{
+    font-size: 25px;
+    padding-left: 100px;
+    padding-top: 30px;
+    font-weight: 900;
+}
+.banner .image{
+    position: relative;
+    top: -201px;
+    left: 10px;
+
+}
+.header_book{
+    z-index: 1;
+}
+.book-date{
+    background-color: #fff;
+    width: 80%;
+    height: 100px;
+    line-height: 100px;
+    margin-left: 40px;
+    position: relative;
+    bottom: 400px;
+}
+.book-date form{
+    margin: 10px;
+}
+.book-date form label{
+    color: #487254;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.book-date form input{
+    margin-right: 30px;
+}
+.book-date form #number{
+    width: 50px;
+}
+.book-date form #book{
+    color: #fff;
+    background-color: #487254;
+    font-size: 20px;
+    border:  none;
+    width: 180px;
+    height: 60px;
+    margin-left: 15px;
 }
