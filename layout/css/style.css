@@ -369,7 +369,8 @@ nav ul li a:hover,
 
 .main-gioithieu p,
 .boxgt-ct-item,
-.box-gt p {
+.box-gt p 
+,.tilte p{
     font-size: 20px;
     line-height: 200%;
 }
@@ -510,7 +511,6 @@ table tr th {
     font-size: 25px;
     padding-left: 100px;
     padding-top: 30px;
-    font-weight: 900;
 }
 .banner .image{
     position: relative;
@@ -567,15 +567,15 @@ table tr th {
     width: 60%;
     font-size: 25px;
     padding-left: 100px;
-   margin-top: 40px;
+    margin-top: 40px;
 }
 .conten p{
     border-left:1px solid #000;
     padding-left: 10px;
 }
-main{
+.box-index{
     position: relative;
-   top: -150px;
+    top: -150px;
 }
 .introduction{
       text-align: center;     
@@ -583,7 +583,7 @@ main{
 .introduction img{
     width: 90%;
 }
-.introduction h3{
+.introduction p{
     padding-top: 30px;
     font-size: 25px;
     width: 80%;
@@ -619,12 +619,12 @@ main{
     align-items: center;
     margin: auto;
     gap: 50px;
-    background-color: #F1F1F1;
+   
 }
 .service img{
     width: 40%;
 }
-.service .tillet h3{
+.service .tillet p{
  width: 90%;
    font-size: 30px;
 }
@@ -633,12 +633,12 @@ main{
     height: 50px;
     background-color: #487254;
     border: none;
-    margin: 20px;
+    margin: 20px 0;
 }
 .room{
     position: relative;
     width: 30%;
-   
+   margin: 0 20px;
 }
 .room img{
     width: 100%;
@@ -648,7 +648,7 @@ main{
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    top: 95px;
+    top: 98px;
     transition: 0.7s;
     background-color: #d9d9d99e;
     width: 100%;
@@ -659,7 +659,7 @@ main{
 }
 .icon p{
     font-size: 15px;
-    font-weight: 700;   
+     
 }
 .information button{
     width: 100px;
@@ -674,7 +674,7 @@ main{
 .room:hover .information{
     opacity: 1;
 }
-=======
+
 /*book phòng*/
 .frm-boxphong{
     display: grid;
@@ -685,9 +685,11 @@ main{
     line-height: 200%;
 }
 .main-bookphong table{
-    width: 100%;
+    width: 1076px;
+    border-radius: 5px;
     border-collapse: collapse;
-    margin: 30px 0;
+    margin: 30px 150px;
+    background-color: #fff;
 }
 .main-bookphong table tr{
     text-align: center;
@@ -707,5 +709,29 @@ main{
     border: 1px solid #ccc;
     padding: 5px;
 }
-
+.boxphong-item textarea{
+    border: 1px solid rgb(194, 186, 186);
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+.checkbox-bp input {
+    margin-top: 30px;
+    margin-left: 727px;
+    font-size: 20px;
+    padding: 5px;
+}
+.checkbox-bp button{
+    height: 50px;
+    width: 90px;
+    background-color:orange;
+    border: 1px solid orange;
+    border-radius: 5px;
+    margin-left: 727px;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+}
 
