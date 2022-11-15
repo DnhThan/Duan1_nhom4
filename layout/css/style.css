@@ -52,7 +52,7 @@ nav ul li a:hover,
 }
 
 .header_book input,
-.main-chitiet button,
+.main-chitiet a input,
 .frm-gt button {
     margin: 30px 10px;
     padding: 13px 25px;
@@ -356,7 +356,7 @@ nav ul li a:hover,
     font-size: 20px;
 }
 
-.main-chitiet button {
+.main-chitiet a input {
     margin-left: 640px;
 }
 
@@ -421,7 +421,7 @@ table tr th {
 }
 
 .box-dm h2 {
-    margin-top: 110px;
+    margin-top: 155px;
     font-size: 30px;
     margin-bottom: 20px;
 }
