@@ -527,7 +527,7 @@ table tr th {
     bottom: 400px;
 }
 .book-date form{
-    padding: 10px;
+   padding-left: 10px;
 }
 .book-date form label{
     color: #487254;
@@ -551,7 +551,7 @@ table tr th {
 }
 .header-conten{
     position: relative;
-    top: -300px;
+    top: -240px;
 }
 .conten{
     display: grid;
@@ -568,6 +568,10 @@ table tr th {
 .conten p{
     border-left:1px solid #000;
     padding-left: 10px;
+}
+main{
+    position: relative;
+   top: -150px;
 }
 .introduction{
       text-align: center;     
@@ -590,7 +594,6 @@ table tr th {
     border: none;
 }
 .service .tillet button a,
-
 .introduction button a{
     font-size: 20px;
     text-decoration: none;
@@ -599,9 +602,11 @@ table tr th {
 .introduction button:hover{
    background-color: #000;
 }
+.main-loaiphongs h1,
 .main-service h1{
-   margin-left: 20px;
-   padding-bottom: 40px;
+    margin-left: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 .service{
     width: 90%;
@@ -629,6 +634,7 @@ table tr th {
 .room{
     position: relative;
     width: 30%;
+   
 }
 .room img{
     width: 100%;
