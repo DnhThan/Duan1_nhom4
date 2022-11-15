@@ -6,7 +6,7 @@
 
 .container {
     padding: 10px;
-    margin: auto;
+    margin:  auto;
     width: 1440px;
     background-color: #F6F3E9;
     font-family: 'Roboto', sans-serif;
@@ -491,6 +491,190 @@ table tr th {
     border-radius: 5px;
     color: white;
 }
+
+/* css trang chủ  */
+.banner-header{
+    display: grid;
+    grid-template-columns: 60% 40%;
+   
+}
+.tilte{
+    padding-top: 140px;
+}
+.tilte h1{
+    font-size: 90px;
+    padding-left: 100px;
+    width: 80%;
+}
+.tilte p{
+    font-size: 25px;
+    padding-left: 100px;
+    padding-top: 30px;
+    font-weight: 900;
+}
+.banner .image{
+    position: relative;
+    top: -201px;
+    left: 10px;
+
+}
+.header_book{
+    z-index: 1;
+}
+.book-date{
+    background-color: #fff;
+    width: 80%;
+    height: 100px;
+    line-height: 80px;
+    margin-left: 40px;
+    position: relative;
+    bottom: 400px;
+}
+.book-date form{
+   padding-left: 10px;
+}
+.book-date form label{
+    color: #487254;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.book-date form input{
+    margin-right: 30px;
+}
+.book-date form #number{
+    width: 50px;
+}
+.book-date form #book{
+    color: #fff;
+    background-color: #487254;
+    font-size: 20px;
+    border:  none;
+    width: 180px;
+    height: 60px;
+    margin-left: 15px;
+}
+.header-conten{
+    position: relative;
+    top: -240px;
+}
+.conten{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 150px;
+    line-height: 30px;
+}
+.conten h2{
+    width: 60%;
+    font-size: 25px;
+    padding-left: 100px;
+   margin-top: 40px;
+}
+.conten p{
+    border-left:1px solid #000;
+    padding-left: 10px;
+}
+main{
+    position: relative;
+   top: -150px;
+}
+.introduction{
+      text-align: center;     
+}
+.introduction img{
+    width: 90%;
+}
+.introduction h3{
+    padding-top: 30px;
+    font-size: 25px;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.introduction button{
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #487254;
+    border: none;
+}
+.service .tillet button a,
+.introduction button a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.introduction button:hover{
+   background-color: #000;
+}
+.main-loaiphongs h1,
+.main-service h1{
+    margin-left: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.service{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    gap: 50px;
+    background-color: #F1F1F1;
+}
+.service img{
+    width: 40%;
+}
+.service .tillet h3{
+ width: 90%;
+   font-size: 30px;
+}
+.service .tillet button{
+    width: 180px;
+    height: 50px;
+    background-color: #487254;
+    border: none;
+    margin: 20px;
+}
+.room{
+    position: relative;
+    width: 30%;
+   
+}
+.room img{
+    width: 100%;
+}
+.information{
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 95px;
+    transition: 0.7s;
+    background-color: #d9d9d99e;
+    width: 100%;
+    opacity: 0;
+}
+.icon{
+    padding-bottom: 10px;
+}
+.icon p{
+    font-size: 15px;
+    font-weight: 700;   
+}
+.information button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #33974f;
+}
+.information button a{
+   color: #fff;
+   text-decoration: none;
+}
+.room:hover .information{
+    opacity: 1;
+}
+=======
 /*book phòng*/
 .frm-boxphong{
     display: grid;
@@ -523,4 +707,5 @@ table tr th {
     border: 1px solid #ccc;
     padding: 5px;
 }
+
 
