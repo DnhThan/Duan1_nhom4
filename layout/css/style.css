@@ -497,7 +497,6 @@ table tr th {
 .banner-header{
     display: grid;
     grid-template-columns: 60% 40%;
-   
 }
 .tilte{
     padding-top: 140px;
